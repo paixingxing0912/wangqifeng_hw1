@@ -1,0 +1,237 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/Dev c++/Dev-Cpp/MinGW64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Lenovo/Desktop/wangqifeng_hw1/build/CMakeFiles/4.0.1/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Lenovo/Desktop/wangqifeng_hw1/build/CMakeFiles/CMakeScratch/TryCompile-zq7c2d"
+      binary: "C:/Users/Lenovo/Desktop/wangqifeng_hw1/build/CMakeFiles/CMakeScratch/TryCompile-zq7c2d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/Desktop/wangqifeng_hw1/build/CMakeFiles/CMakeScratch/TryCompile-zq7c2d'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 "D:/Dev c++/Dev-Cpp/MinGW64/bin/mingw32-make.exe" -f Makefile cmTC_7cd20/fast
+        D:/Dev c++/Dev-Cpp/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7cd20.dir\\build.make CMakeFiles/cmTC_7cd20.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Lenovo/Desktop/wangqifeng_hw1/build/CMakeFiles/CMakeScratch/TryCompile-zq7c2d'
+        Building C object CMakeFiles/cmTC_7cd20.dir/CMakeCCompilerABI.c.obj
+        "D:\\Dev c++\\Dev-Cpp\\MinGW64\\bin\\gcc.exe"   -v -o CMakeFiles\\cmTC_7cd20.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=D:\\Dev c++\\Dev-Cpp\\MinGW64\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-4.9.2/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+        Thread model: posix
+        gcc version 4.9.2 (tdm64-1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7cd20.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/cc1.exe -quiet -v -iprefix D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/ -D_REENTRANT D:\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_7cd20.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\Lenovo\\AppData\\Local\\Temp\\cch4Vpvy.s
+        GNU C (tdm64-1) version 4.9.2 (x86_64-w64-mingw32)
+        	compiled by GNU C version 4.9.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/Dev c++/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+        ignoring duplicate directory "D:/Dev c++/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"
+        ignoring duplicate directory "D:/Dev c++/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"
+        ignoring duplicate directory "D:/Dev c++/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include
+         D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include
+         D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed
+         D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C (tdm64-1) version 4.9.2 (x86_64-w64-mingw32)
+        	compiled by GNU C version 4.9.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: d23ebdb4e081c97b257cdcdb7f0d8f7e
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7cd20.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_7cd20.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Lenovo\\AppData\\Local\\Temp\\cch4Vpvy.s
+        GNU assembler version 2.24.51 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.24.51.20140703
+        COMPILER_PATH=D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/;D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/;D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/;D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/;D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/;D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/;D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7cd20.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_7cd20.exe
+        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_7cd20.dir\\link.txt --verbose=1
+        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_7cd20.dir/objects.a
+        "D:\\Dev c++\\Dev-Cpp\\MinGW64\\bin\\ar.exe" qc CMakeFiles\\cmTC_7cd20.dir/objects.a @CMakeFiles\\cmTC_7cd20.dir\\objects1.rsp
+        "D:\\Dev c++\\Dev-Cpp\\MinGW64\\bin\\gcc.exe"  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_7cd20.dir/objects.a -Wl,--no-whole-archive -o cmTC_7cd20.exe -Wl,--out-implib,libcmTC_7cd20.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=D:\\Dev c++\\Dev-Cpp\\MinGW64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=D:/Dev\\ c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-4.9.2/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+        Thread model: posix
+        gcc version 4.9.2 (tdm64-1) 
+        COMPILER_PATH=D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/;D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/;D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/;D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/;D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/;D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/;D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cd20.exe' '-mtune=generic' '-march=x86-64'
+         D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/collect2.exe -plugin D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ccrrXDEM.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_7cd20.exe D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2 -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../.. -v --whole-archive CMakeFiles\\cmTC_7cd20.dir/objects.a --no-whole-archive --out-implib libcmTC_7cd20.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+        collect2 version 4.9.2
+        D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ccrrXDEM.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_7cd20.exe D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2 -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../.. -v --whole-archive CMakeFiles\\cmTC_7cd20.dir/objects.a --no-whole-archive --out-implib libcmTC_7cd20.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+        GNU ld (GNU Binutils) 2.24.51.20140703
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Lenovo/Desktop/wangqifeng_hw1/build/CMakeFiles/CMakeScratch/TryCompile-zq7c2d'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "D:/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include]
+          add: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include]
+          add: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed]
+          add: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include] ==> [D:/Dev c++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include]
+        collapse include dir [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include] ==> [D:/Dev c++/Dev-Cpp/MinGW64/include]
+        collapse include dir [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed] ==> [D:/Dev c++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed]
+        collapse include dir [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include] ==> [D:/Dev c++/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/Dev c++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include;D:/Dev c++/Dev-Cpp/MinGW64/include;D:/Dev c++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed;D:/Dev c++/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "D:/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Lenovo/Desktop/wangqifeng_hw1/build/CMakeFiles/CMakeScratch/TryCompile-zq7c2d']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 "D:/Dev c++/Dev-Cpp/MinGW64/bin/mingw32-make.exe" -f Makefile cmTC_7cd20/fast]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7cd20.dir\\build.make CMakeFiles/cmTC_7cd20.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/Lenovo/Desktop/wangqifeng_hw1/build/CMakeFiles/CMakeScratch/TryCompile-zq7c2d']
+        ignore line: [Building C object CMakeFiles/cmTC_7cd20.dir/CMakeCCompilerABI.c.obj]
+        ignore line: ["D:\\Dev c++\\Dev-Cpp\\MinGW64\\bin\\gcc.exe"   -v -o CMakeFiles\\cmTC_7cd20.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Dev c++\\Dev-Cpp\\MinGW64\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-4.9.2/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.9.2 (tdm64-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7cd20.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/cc1.exe -quiet -v -iprefix D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/ -D_REENTRANT D:\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_7cd20.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\Lenovo\\AppData\\Local\\Temp\\cch4Vpvy.s]
+        ignore line: [GNU C (tdm64-1) version 4.9.2 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 4.9.2  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/Dev c++/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/include"]
+        ignore line: [ignoring duplicate directory "D:/Dev c++/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/Dev c++/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/Dev c++/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include]
+        ignore line: [ D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include]
+        ignore line: [ D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed]
+        ignore line: [ D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C (tdm64-1) version 4.9.2 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 4.9.2  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: d23ebdb4e081c97b257cdcdb7f0d8f7e]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7cd20.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_7cd20.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Lenovo\\AppData\\Local\\Temp\\cch4Vpvy.s]
+        ignore line: [GNU assembler version 2.24.51 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.24.51.20140703]
+        ignore line: [COMPILER_PATH=D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7cd20.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_7cd20.exe]
+        ignore line: [D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_7cd20.dir\\link.txt --verbose=1]
+        ignore line: [D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_7cd20.dir/objects.a]
+        ignore line: ["D:\\Dev c++\\Dev-Cpp\\MinGW64\\bin\\ar.exe" qc CMakeFiles\\cmTC_7cd20.dir/objects.a @CMakeFiles\\cmTC_7cd20.dir\\objects1.rsp]
+        ignore line: ["D:\\Dev c++\\Dev-Cpp\\MinGW64\\bin\\gcc.exe"  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_7cd20.dir/objects.a -Wl --no-whole-archive -o cmTC_7cd20.exe -Wl --out-implib libcmTC_7cd20.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Dev c++\\Dev-Cpp\\MinGW64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/Dev\\ c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-4.9.2/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.9.2 (tdm64-1) ]
+        ignore line: [COMPILER_PATH=D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cd20.exe' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/collect2.exe -plugin D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ccrrXDEM.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_7cd20.exe D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2 -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../.. -v --whole-archive CMakeFiles\\cmTC_7cd20.dir/objects.a --no-whole-archive --out-implib libcmTC_7cd20.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+        ignore line: [collect2 version 4.9.2]
+        ignore line: [D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/Dev c++/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lenovo\\AppData\\Local\\Temp\\ccrrXDEM.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_7cd20.exe D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2 -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib -LD:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../.. -v --whole-archive CMakeFiles\\cmTC_7cd20.dir/objects.a --no-whole-archive --out-implib libcmTC_7cd20.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/Dev c++/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+        ignore line: [GNU ld (GNU Binutils) 2.24.51.20140703]
+        ignore line: [mingw32-make.exe[1]: Leaving directory 'C:/Users/Lenovo/Desktop/wangqifeng_hw1/build/CMakeFiles/CMakeScratch/TryCompile-zq7c2d']
+        ignore line: []
+        ignore line: []
+        linker tool for 'C': D:/Dev c++/Dev-Cpp/MinGW64/x86_64-w64-mingw32/bin/ld.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "D:/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Dev c++/Dev-Cpp/MinGW64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.24.51.20140703
+...

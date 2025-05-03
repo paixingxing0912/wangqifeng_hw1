@@ -1,0 +1,51 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/Dev c++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include",
+						"D:/Dev c++/Dev-Cpp/MinGW64/include",
+						"D:/Dev c++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed",
+						"D:/Dev c++/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "D:/Dev c++/Dev-Cpp/MinGW64/bin/gcc.exe",
+				"version" : "4.9.2"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/Dev c++/Dev-Cpp/MinGW64/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
